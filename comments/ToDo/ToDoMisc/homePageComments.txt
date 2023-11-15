@@ -1,0 +1,15 @@
+Navigation
+Change button to be less prominent.
+Maybe add a 
+
+
+
+<div id="informationContainer">
+    <p id="informationHeader">
+      Incidental and Interactive music composition
+    <br>
+      Music Education/Production software development
+    <br>
+      Synthesizer and Plug-in design
+    </p>
+  </div>

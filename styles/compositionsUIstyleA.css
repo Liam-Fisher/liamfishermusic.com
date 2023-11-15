@@ -1,0 +1,65 @@
+@font-face 
+        {
+              font-family: Indie;
+              src: url(styles/../fonts/IndieFlower.ttf);
+            }
+            @font-face {
+
+              font-family: Source;
+              src: url(../styles/fonts/SourceCodePro-ExtraLight.ttf)
+            }
+html, body 
+{
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+canvas {
+  z-index: 2;
+}
+table {
+  border: 4px outset slategray;
+  position: absolute;
+  top: 16%; 
+  left: 15%; 
+  height: 60%; 
+  width: 64%; 
+   opacity: 0;
+   text-align: center;
+   table-layout: fixed;
+   font-family: Source, Courier, monospace;
+   z-index: 3;
+  }
+#displayHeader{
+  font-family: Indie,  Courier, monospace;
+  font-size: 1.5em;
+}
+td {
+  border: 4px outset lightslategray;
+  font-size: 1em;
+}
+small {
+  font-size: 0.75em;
+}
+i {
+  font-size: 1.25em;
+}
+audio {
+  vertical-align: center;
+  opacity: 0.5;
+  height: 50%;
+  width: 100%;
+}
+b {
+  font-size: 0.75em;
+}
+#fractal{
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  top: -1%;;
+  left: -2.5%;
+  height: 101%;
+  width: 100%;
+  border-radius: 5%;
+}

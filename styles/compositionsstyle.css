@@ -1,0 +1,79 @@
+
+html, body 
+{
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+#mainheading {
+  height: 15%;
+}
+main {
+  height: 80%;
+}
+#compUI {
+  border: 4px ridge #ffffff04;
+  height: 90%;
+  width: 100%;
+  margin-top: 2%;
+  z-index: 3;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+footer > p{
+  position: absolute;
+  vertical-align: top;
+  text-align: center;
+  height: min-content;
+  width: 95%;
+  margin-top: -5%;
+  padding: 0.5em;
+color: whitesmoke;
+font-family: Source, monospace;
+text-shadow: 0px 2px 4px green, -2px 0px 4px red, 2px 0px 4px blue, 0px -2px 4px black;
+font-weight: 400;
+  font-size: 1.5vw;
+  border: 0.5em groove whitesmoke;
+  border-radius: 5%;
+  background-image: repeating-linear-gradient(black, darkslategrey 33%, black 100% 25px);
+}
+
+#svgHere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  }
+  #svgHere > img {
+    opacity: 0.75;
+  }
+  @media (max-width: 420px) {
+    #mainheading
+    {
+      height: 12%;
+    }
+    main {
+      height: 70%;
+      margin: 0;
+     }
+     #compUI {
+       width: 120%;
+     }
+footer > p{
+  margin-top: -2.5%;
+  width: 90%;
+  font-size: 4vw;
+}
+     
+#compUI {
+  height: 100%;
+  width: 100%;
+  margin-top: 2%;
+  z-index: 3;
+}
+}

@@ -1,0 +1,71 @@
+@font-face {
+
+    font-family: Commodore;
+    src: url(../styles/fonts/ATOMICCLOCKRADIO.TTF)
+  }
+  
+html {
+    background-image: url("../media/images/backgroundA4by4.png");
+    height: 100vh;
+}
+
+
+body {
+    height: 100%;
+}
+#mainheading {
+height: 15%;
+  }
+  main {
+      height: 60%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+#informationHeader 
+{
+width: 90%;
+text-align: center;
+line-height: 1.5em;
+  height: min-content;
+  border: 0.5em groove #E2E2E8;
+  border-radius: 5%;
+  background-image: linear-gradient(black, darkslategrey 33%, black 100% 25px);
+  padding: 3%;
+  font-size: 3vw;
+  color: whitesmoke;
+  font-family: Commodore, Courier, monospace;
+  text-shadow: 0px 2px 4px green, -3px 0px 4px red, 2px 0px 4px blue, 0px -2px 4px black;
+}
+
+#informationHeader > b {
+    text-underline-offset: 0.1em;
+    text-decoration: underline dashed;
+line-height: 1.75em;
+}
+#svgHere {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    }
+    #svgHere > img {
+      opacity: 0.75;
+    }
+    
+@media (max-width: 420px) {
+    #mainheading
+    {
+      height: 20%;
+    }
+    main {
+      height: 60%;
+      margin: 0;
+     }
+     #informationHeader {
+         font-size: 6vw;
+         padding: 4%;
+     }
+    }

@@ -1,0 +1,103 @@
+@font-face {
+
+  font-family: Source;
+  src: url(../styles/fonts/SourceCodePro-ExtraLight.ttf)
+}
+html, body 
+{
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+#mainheading {
+  height: 20%;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+table {
+  width: 70vw;
+  height: 60vh;
+  max-width: 750px;
+  max-height: 450px;
+  border: 0.5em groove whitesmoke;
+  background-image: linear-gradient(black, darkslategrey 33%, black 100% 25px);
+  padding: 1%;
+  opacity: 0.9;
+}
+thead {
+font-size: 4vw;
+color: whitesmoke;
+text-shadow: 0px 2px 4px green, -2px 0px 4px red, 2px 0px 4px blue, 0px -2px 4px black;
+font-weight: 400;
+font-family: Source, Courier, monospace;
+}
+tbody {
+font-size: 2vw;
+text-align: center;
+color: whitesmoke;
+font-family: Source, Courier, monospace;
+text-shadow: 0px 0px 2px black, 0px 0px 4px white;
+font-weight: 100;
+}
+
+u {
+font-size: 2.5vw;
+text-align: center;
+}
+.link > a 
+{
+
+  text-align: left;
+    color: lightsteelblue;
+    text-decoration: underline solid lightsteelblue;
+    text-shadow: 0px 0px 2px darkslategray;
+}
+
+#socials 
+{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#linkedin > img
+{
+  margin: 2px;
+  border-radius: 50%;
+ }
+
+ #soundcloud > img {
+  margin: 2px;
+  border-radius: 50%;
+ }
+ #spotify {
+  margin: 2px;
+ } 
+#youtube {
+  margin: 2px;
+ }
+@media (max-width: 420px) {
+table {
+  width: 60vw;
+  height: 80vw;
+}
+thead {
+  font-size: 8vw;
+}
+  tbody {
+    font-size: 4vw;
+}
+}
+
+ #svgHere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  }
+  #svgHere > img {
+    opacity: 0.75;
+  }

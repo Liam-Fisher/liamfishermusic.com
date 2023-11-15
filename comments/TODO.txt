@@ -1,0 +1,36 @@
+WEBSITE TO DO
+                        <HTML>
+Finish header-
+	1.	Add icons as the buttons (top or bottom??)
+	2.	try styling the currently visited page. This may include animation? I.e “You are Here” 
+Finish About Me page
+	1.	GET BETTER PHOTOS
+	2.	Touch up bio 
+	3.	Re-style
+	4.	Possibly add some sections about relationship with music- like process, aesthetics, perspective, goals, accomplishments (someday...), 
+Finish desktop home page-
+	1.	Touch up main points - maybe add a slogan of sorts - 
+Finish compositions main- 
+	1.	Style remaining genres
+
+Start/Finish Interactive main
+	1.	Basic structure... lots of “coming soon”
+	2.	Brief paragraph about interactive music - possibly triggered by hovering over a “but why?” Button
+	3.	List of games/sims/instruments with BRIEF description
+	4.	Create simple subpage structure and embed the games in it - add a more in depth description 
+ Contact me
+1. fix alignment
+
+		
+General -
+	1.	Decide on consistency of fonts throughout
+	2.	Decide on a consistent frame/background
+	3.	Decide on footer (contact info? Copyright?)
+
+
+
+
+
+
+             CONTENT (not urgent)
+	1.	Try(!!!) redoing Ostinato snake with svg - if successful do brick breaker game the same 

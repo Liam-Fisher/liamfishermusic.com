@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: Source;
+    src: url(../styles/fonts/SourceCodePro-ExtraLight.ttf);
+}
+html {
+  
+    background-image: url("../media/images/backgroundA4by4.png");
+    background-repeat: no-repeat round;
+}
+body {
+    margin: 0;
+    background-color: rgba(27, 25, 27, 0.12);
+    
+}
+
+p > a{
+    color: lightsteelblue;
+    text-decoration: underline solid lightsteelblue;
+    text-shadow: 0px 0px 2px darkslategray;
+}
+#bio, #mystyle, #myskills {
+    margin: 1%;
+    padding: 1% 3% 2% 3%;
+    border: 0.75em groove #E2E2E8;
+    font-family: Source, monospace;
+    border-radius: 5%;
+    background-image: linear-gradient(black, darkslategrey 33%, black 100% 25px);  
+    text-align: left;
+    opacity: 0.9;
+}
+.aboutheadings2 {
+margin: 0;
+font-size: 4vw;
+color: whitesmoke;
+font-family: Source, monospace;
+text-shadow: 0px 2px 4px green, -2px 0px 4px red, 2px 0px 4px blue, 0px -2px 4px black;
+font-weight: 400;
+text-align: center;
+}
+.aboutP {
+display: block;
+text-indent: 4em;
+font-size: 1.75vw;
+color: whitesmoke;
+font-family: Source, monospace;
+font-weight: 100;
+}
+
+picture {
+    background-color: #E0B589;
+    z-index: 0;
+    border: 1em groove #E0B589;
+    opacity: 0.9;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+#picA {
+float: right;
+margin-left: 1%;
+}
+#picB {
+    float: left;
+margin-right: 2%;
+    }
+@media (max-width: 420px) {
+    .aboutheadings2 {
+        font-size: 8vw;   
+    }
+.aboutP {
+text-indent: 1em;
+font-size: 4vw;
+}
+picture {
+    border-width: 0.75em;
+}
+}

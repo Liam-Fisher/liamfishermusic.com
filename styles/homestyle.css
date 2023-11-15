@@ -1,0 +1,115 @@
+@font-face {
+
+  font-family: Source;
+  src: url(../styles/fonts/SourceCodePro-ExtraLight.ttf)
+}
+
+html, body 
+{
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+
+#mainheading
+{
+  height: 15%;
+}
+main {
+  height: 65%;
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-evenly;
+ }
+#videoContainer
+{
+ padding: 0.05em, 0.25em, 0.05em, 0.25em;
+ width:  min-content;
+ height: 60%;
+ margin: 0;
+ border-style: double;
+ border-color:#383860;
+ border-width: 1em;
+ background-image: linear-gradient(to right, darkslateblue,  lightslategrey 5%, lightslategrey 95%, darkslateblue);
+}
+#videoPlayer 
+{
+ align-self: center;
+ height: 100%;
+ object-fit: cover;
+ background-image: linear-gradient(to top, darkslateblue,  lightslategrey 5%, lightslategrey 95%, darkslateblue);
+ opacity: 0.95;
+}
+#informationHeader 
+{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: min-content;
+  width: 50%;
+  min-width: 320px;
+  border: 0.5em groove #E2E2E8;
+  color: whitesmoke;
+text-shadow: 0px 1px 2px green, -1px 0px 2px red, 1px 0px 2px blue, 0px -1px 2px black;
+  font-family: Source, monospace;
+  border-radius: 5%;
+  background-image: linear-gradient(black, darkslategrey 33%, black 100% 25px);
+  font-size: 2vw;
+}
+footer {
+  height: 20%;
+}
+.soundCloud 
+{
+  opacity: 0.75;
+  width: 100%;
+  height: max-content;
+}
+
+#svgHere {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  }
+  #svgHere > img {
+    opacity: 0.75;
+  }
+@media (max-width: 420px) {
+  #mainheading
+  {
+    height: 20%;
+  }
+  main {
+    height: 60%;
+    margin: 0;
+   }
+   #videoContainer {
+     width:  min-content;
+     height: 35%;
+     border-radius: 10%;
+     border-style: inset;
+     border-color: steelblue;
+     border-width: 0.75em;
+   }
+   #informationHeader 
+   {
+     text-align: center;
+     padding-top: 3%;
+     padding-bottom: 3%;
+     height: min-content;
+     width: 80%;
+     color: lightgreen;
+     text-shadow: 0px 0px 4px thistle;
+     border: 0.5em groove whitesmoke;
+     background-image: linear-gradient(black, darkslategrey 33%, black 100% 25px);
+     font-size: 3vh;
+     font-family: Source, monospace;
+   }
+  }

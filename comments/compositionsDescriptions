@@ -1,0 +1,121 @@
+var pieceArray = [
+{genre: 'Piano Music',
+work: {
+collectionTitle: "Piano Sonata",
+collectionContents: [
+{title: '<small>I:</small> <i>Strained Light</i>',
+description: "The first movement is in the style of a tone poem, moving through a foray of keys and moods and oscillating between intensity and calm",
+filename: "InStrainedLight.wav"},
+{title: '<small>II:</small> <i>Inner Movement</i>',
+description: "The second movement is in Sonata form, but primarily driven by modern harmonic idioms, only using traditional ones to maintain a sense of structure",
+filename: "inner_movement.wav"},
+{title: '<small>III:</small> <i>Interlude</i>',
+  description: "The third movement was intended to be light and simple in character, constrasting the serious tone of the surrounding moments",
+  filename: "Interlude.wav"},
+{title: '<small>IV:</small> <i>Keep Up</i>',
+description: "The fourth movement is intended to evoke a sense of motion, through a playful dance taken up by the upper and lower voices",
+filename: "minuet-tm.wav"}
+]}
+},
+{genre: 'Chamber Music',
+work: {
+collectionTitle: "Three Paintings by Edvard Munch",
+collectionContents: [
+{title: '<i>The Sun</i><br><b>(for String Quartet)</b>',
+description: `<img id="sun" src="../media/images/The_Sun.jpg" alt="Painting of the Sun" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*1.75)/6)}>`,
+filename: "string_quartet.wav"
+ },
+{title: '<i>Golgotha</i><br><b>(for Wind Octet)</b>',
+description: `<img id="golgotha" src="../media/images/Golgotha.jpg" alt="Painting of Golgotha" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*1.5)/6)}>`,
+filename: "wind_octet.wav"},
+{title: '<i>The Scream</i><br><b>(for Two Pianos)</b>',
+description: `<img id="scream" src="../media/images/The_Scream.jpg" alt="Painting of The Scream" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*2)/6)}>`,
+filename: "piano_duet.wav"}]}
+},
+{genre: 'Orchestral Music',
+work: {
+collectionTitle: "Little Fugal Symmetry Games",
+collectionContents: [
+{title: '<small>I:</small> <i>Agitato</i>',
+description: "Features layered fugal entries that increase in number, creating dissonant clusters, until the subject's contour is fully obscured",
+filename: "fugue1.wav"},
+{title: '<small>II:</small> <i>Scherzando</i>',
+description:'Each entry alternates between being "flipped" and "stretched", until the intervallic structure of the initial figure is evenly distributed',
+filename: "fugue2.wav"},
+{title: '<small>III:</small> <i>Allegretto</i>',
+description: "Each voice in this fugue's exposition enters in a different key, then combine to create a harmonic sequence that returns to the original",
+filename: "fugue3.wav"}
+]}},
+{genre: "Experimental",
+work: {
+  collectionTitle: "Adventures in Overloading",
+  collectionContents: [
+{title: "<i>Nocturnal Shenanigans</i>",
+description: "Revolves around a returning 11/16 melody and increasingly inconsistencies in rhythm",
+filename: "NocturnalShenanigans.wav"
+},
+{title: '<i>The Long Trek</i>',
+description: "Uses multiple ostinatos that are stretched and shifted in time, then switches to a dissonant, pulsing B section",
+filename: "The_Long_Trek.wav"
+}
+]}}, 
+ {genre: 'Piano Music',
+work: {
+collectionTitle: "Piano Sonata",
+collectionContents: [
+{title: '<small>I:</small> <i>Strained Light</i>',
+description: "The first movement is in the style of a tone poem, moving through a foray of keys and moods and oscillating between intensity and calm",
+filename: "InStrainedLight.wav"},
+{title: '<small>II:</small> <i>Inner Movement</i>',
+description: "The second movement is in Sonata form, but primarily driven by modern harmonic idioms, only using traditional ones to maintain a sense of structure",
+filename: "inner_movement.wav"},
+{title: '<small>III:</small> <i>Interlude</i>',
+  description: "The third movement was intended to be light and simple in character, constrasting the serious tone of the surrounding moments",
+  filename: "Interlude.wav"},
+{title: '<small>IV:</small> <i>Keep Up</i>',
+description: "The fourth movement is intended to evoke a sense of motion, through a playful dance taken up by the upper and lower voices",
+filename: "minuet-tm.wav"}
+]}
+},
+{genre: 'Chamber Music',
+work: {
+collectionTitle: "Three Paintings by Edvard Munch",
+collectionContents: [
+{title: '<i>The Sun</i><br><b>(for String Quartet)</b>',
+description: `<img id="sun" src="../media/images/The_Sun.jpg" alt="Painting of the Sun" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*1.75)/6)}>`,
+filename: "string_quartet.wav"
+ },
+{title: '<i>Golgotha</i><br><b>(for Wind Octet)</b>',
+description: `<img id="golgotha" src="../media/images/Golgotha.jpg" alt="Painting of Golgotha" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*1.5)/6)}>`,
+filename: "wind_octet.wav"},
+{title: '<i>The Scream</i><br><b>(for Two Pianos)</b>',
+description: `<img id="scream" src="../media/images/The_Scream.jpg" alt="Painting of The Scream" height=${Math.floor(ctxH/6)} width=${Math.floor((ctxH*2)/6)}>`,
+filename: "piano_duet.wav"}]}
+},
+{genre: 'Orchestral Music',
+work: {
+collectionTitle: "Little Fugal Symmetry Games",
+collectionContents: [
+{title: '<small>I:</small> <i>Agitato</i>',
+description: "Features layered fugal entries that increase in number, creating dissonant clusters, until the subject's contour is fully obscured",
+filename: "fugue1.wav"},
+{title: '<small>II:</small> <i>Scherzando</i>',
+description:'Each entry alternates between being "flipped" and "stretched", until the intervallic structure of the initial figure is evenly distributed',
+filename: "fugue2.wav"},
+{title: '<small>III:</small> <i>Allegretto</i>',
+description: "Each voice in this fugue's exposition enters in a different key, then combine to create a harmonic sequence that returns to the original",
+filename: "fugue3.wav"}
+]}},
+{genre: "Experimental",
+work: {
+  collectionTitle: "Adventures in Overloading",
+  collectionContents: [
+{title: "<i>Nocturnal Shenanigans</i>",
+description: "Revolves around a returning 11/16 melody and increasing inconsistencies in rhythm",
+filename: "NocturnalShenanigans.wav"
+},
+{title: '<i>The Long Trek</i>',
+description: "Uses multiple ostinatos that are stretched and shifted in time, then switches to a dissonant, pulsing B section",
+filename: "The_Long_Trek.wav"
+ }]}} 
+]
